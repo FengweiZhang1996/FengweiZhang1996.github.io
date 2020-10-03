@@ -1,0 +1,97 @@
+<html>
+<head>
+  <title>Add New Interests</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+h5 {text-align: center;}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <a class="navbar-brand" href="mypage_bootstrap.html#">Home</a>
+    <a class="navbar-brand" href="projects.html#">Projects</a>
+  </nav>
+  <h1>Add New Interests</h1>
+  <br>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Interest Name</label>
+    <input class="form-control" type="text" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Text about interest</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  </div>
+  <div class="m-5">
+  <div class="row">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlFile1">upload local image</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+    </form>
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Select #tweets to display</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  </div>
+  </div>
+  <div class="m-4">
+  <p>On a scale of 1-5,how interested is this are you?</p>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+    <label class="form-check-label" for="inlineCheckbox1">1</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">2</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3" >
+    <label class="form-check-label" for="inlineCheckbox3">3</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option4" >
+    <label class="form-check-label" for="inlineCheckbox4">4</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option5" >
+    <label class="form-check-label" for="inlineCheckbox5">5</label>
+  </div>
+  </div>
+  <h5>Login to Finish submitting</h5>
+  <div class="m-4">
+    <div class="form-horizontal">
+        <form class="form-inline" role="form">
+      <div class="form-group">
+        <input type="Username" class="form-control" id="exampleInputUsername1" aria-describedby="UsernameHelp" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </form>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </div>
+</body>
+</html>
