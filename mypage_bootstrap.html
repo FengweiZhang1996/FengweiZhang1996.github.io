@@ -8,6 +8,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="./mypage_bootstrap.js"></script>
         <style>
           ul {
             list-style-type: none;
@@ -26,6 +27,10 @@
         <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
           <a class="navbar-brand" href="mypage_bootstrap.html#">Home</a>
           <a class="navbar-brand" href="projects.html#">Projects</a>
+          <a class="navbar-brand" href="form.html">Form</a>
+          <a class="navbar-brand" href="login.html">Sign Up Modal</a>
+          <a class="navbar-brand" href="tic-tac-toe.html">Tic Tac Toe game
+</a>
         </nav>
           <div class ="container">
              <h1>Fengwei Zhang<small><span class="text-muted"></span></small></h1>
@@ -33,7 +38,7 @@
           <br>
         <div class="container-left">
           <div class="card">
-            <div class="card-body">CS student, 24 years old</div>
+            <div class="card-body">CS student, 24 years old. I like history and music, I study computer science because I think CS is the most advanced technology. </div>
           </div>
         </div>
         <br>
@@ -56,35 +61,46 @@
         </div>
         </div>
         <br>
+
         <div class = "row">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="senpai.jpg" alt="senpai">
+
+          <div class="card" id = "interest1" >
+            <img class="card-img-top" style="width: 18rem;" >
+            <img src = "senpai.jpg" alt="senpai" width="300px" height="300px">
             <div class="card-body">
               <h5 class="card-title">Aniki</h5>
               <p class="card-text">Senpai show me the way.</p>
+              <a class="btn btn-info btn-xs" role="button" onclick = "addCard('interest1')"> + </a>-
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="brother.jpg" alt="brother">
+
+          <div class="card" id = "interest2" >
+          <img class="card-img-top" style="width: 18rem;">
+            <img class="card-img-top" src="brother.jpg" >
             <div class="card-body">
               <h5 class="card-title">Big brother</h5>
               <p class="card-text">Brother gimme power.</p>
+              <a class="btn btn-info btn-xs" role="button" onclick = "addCard('interest2')"> + </a>-
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="revolution.jpg" alt="revolution">
+
+          <div class="card" id = "interest3" >
+          <img class="card-img-top" style="width: 18rem;">
+            <img class="card-img-top" src="revolution.jpg" alt="revolution" >
             <div class="card-body">
               <h5 class="card-title">Revolution</h5>
               <p class="card-text">We will never stop revolution.</p>
+              <a class="btn btn-info btn-xs" role="button" onclick = "addCard('interest3')"> + </a>-
             </div>
           </div>
+
         </div>
-          <footer class="page-footer bg-light">
+        <footer class="page-footer bg-light">
                 <div class="footer-copyright text-center py-3">
                     <a class="link" href="https://www.linkedin.com/in/%E6%A2%93%E6%B7%87-%E8%B5%B5-a82a861b8/">
                             <img src='https://www.linkpicture.com/q/LI-In-Bug_1.png' height="25px" width="30px"></a>
                     </a>
                 </div>
-          </footer>
+        </footer>
       </body>
     </html>
