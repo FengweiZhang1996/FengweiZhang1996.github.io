@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+          <a class="navbar-brand" href="index.html#">Home</a>
+          <a class="navbar-brand" href="projects.html#">Projects</a>
+          <a class="navbar-brand" href="form.html">Form</a>
+          <a class="navbar-brand" href="login.html">Sign Up Modal</a>
+          <a class="navbar-brand" href="tic-tac-toe.html">Tic Tac Toe game
+</a>
+        </nav>
+      <title>images</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="./libraryindex.js"></script>
+    </head>
+
+    <body>
+      <form>
+        <fieldset>
+            <label>Number of Images to Show</label>
+            <select id = "myList">
+              <option value = "30">30</option>
+              <option value = "50">50</option>
+              <option value = "70">70</option>
+            </select>
+
+        </fieldset>
+        <input id="search" type="text" placeholder=" " />
+        
+        <div id="images"></div>
+      </form>
+      <button id="submit" onclick="makeApicall()"> Submit </button>
+    </body>
+</html>
